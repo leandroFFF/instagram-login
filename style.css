@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 80vh;
+}
+
+.instagram-continue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 60vh;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 90%;
+    padding: 20px 0;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+#instagram-logo {
+    height: 3.5rem;
+    margin: 25px 0 25px 0;
+}
+
+.instagram-login input {
+    width: 75%;
+    height: 15%;
+    margin: 3px;
+    padding: 12px 0 12px 8px;
+    background-color: #fafafa;
+    color: lightgray;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-size: 12px;
+}
+
+.instagram-login #button {
+    padding: 9px 0 7px 8px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 75%;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+
+.ou {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ou p{
+    font-size: 12px;
+}
+
+.ou .linha {
+    height: 1px;
+    width: 8rem;
+    border-top: 1px solid lightgray;
+    margin: 20px;
+}
+
+.instagram-login .facebook {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #0095f6;
+    font-weight: bold;
+    margin: 5px 0 15px 0;
+}
+
+.facebook img {
+    height: 1.2em;
+}
+
+.instagram-login .esqueceu-senha a{
+    color: #00376b;
+    font-size: 0.95em;
+    font-size: 12px;
+}
+
+.instagram-join {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.instagram-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.instagram-download .plataforma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.plataforma a img {
+    height: 3rem;
+    margin: 0 .5rem;    
+}
